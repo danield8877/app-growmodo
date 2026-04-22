@@ -1,0 +1,362 @@
+{
+  "nav": {
+    "brand": "Revamperr",
+    "revamp": "Revamp",
+    "imager": "Imager",
+    "project": "Le projet",
+    "tools": "Les outils",
+    "features": "Fonctionnalités",
+    "workflow": "Workflow",
+    "pricing": "Tarifs",
+    "login": "Se connecter",
+    "getStarted": "Créer un compte"
+  },
+  "internalLanding": {
+    "badge": "Outil interne",
+    "heroTitle": "Refondre un site en ligne",
+    "heroHighlight": "à partir de son URL",
+    "heroDescription": "Saisissez l’adresse ci-dessous pour ouvrir Revamp avec l’URL déjà renseignée. Session invité sans compte ; créez un compte pour conserver vos projets.",
+    "heroScrollToUrl": "Aller au champ URL",
+    "heroImagerLink": "Imager",
+    "heroNote": "Le mode invité crée une session automatiquement. Un compte permet de synchroniser vos projets.",
+    "urlBlockTitle": "Refonte à partir d’une URL",
+    "urlBlockDescription": "Indiquez la page à retravailler. L’écran suivant permet de choisir le style, les sections et le mode de génération.",
+    "urlPlaceholder": "exemple.com ou https://…",
+    "urlSubmit": "Continuer vers Revamp",
+    "urlHint": "Style, sections et mode avancé se règlent sur la page Revamp.",
+    "footerNote": "© 2026 — Outil interne Revamperr (Revamp & Imager). Usage réservé à l’organisation."
+  },
+  "hero": {
+    "badge": "Nouvelle version 2.0 disponible",
+    "title": "Validez vos projets à la",
+    "titleHighlight": "vitesse de la pensée.",
+    "description": "Réduisez le gaspillage. Gagnez du temps. Lancez vos produits plus rapidement. La plateforme d'approbation ultime conçue pour les freelances et agences modernes.",
+    "ctaPrimary": "Commencer gratuitement",
+    "ctaSecondary": "Voir la démo"
+  },
+  "files": {
+    "web": "Maquette web",
+    "pdf": "Document.pdf",
+    "video": "Présentation.mp4"
+  },
+  "status": {
+    "approved": "Approuvé",
+    "inReview": "En révision",
+    "pending": "En attente",
+    "confirmed": "Confirmé",
+    "waiting": "En attente"
+  },
+  "labels": {
+    "status": "Status",
+    "client": "Client",
+    "me": "Moi",
+    "history": "Historique",
+    "amount": "Montant"
+  },
+  "time": {
+    "current": "Actuel",
+    "ago": "il y a {{time}}",
+    "yesterday": "Hier",
+    "hour": "{{count}}h",
+    "days": "{{count}} jours"
+  },
+  "features": {
+    "title": "Découvrez le futur de",
+    "titleLine2": "l'approbation de projets",
+    "subtitle": "Voyez exactement ce qui doit être changé, qui l'a demandé et quand c'est fait.",
+    "annotations": {
+      "title": "Annotations au pixel près",
+      "description": "Épinglez des commentaires précisément sur n'importe quel élément visuel. Vidéo, image ou PDF. Fini la confusion à propos de ce truc dans le coin."
+    },
+    "versioning": {
+      "title": "Versioning automatique",
+      "description": "Ne perdez jamais un fichier. Comparez les versions côte à côte instantanément."
+    },
+    "sync": {
+      "title": "Synchronisation temps réel",
+      "description": "Travaillez avec votre équipe et vos clients sans friction."
+    },
+    "dashboard": {
+      "title": "Centre de contrôle",
+      "description": "Suivez l'état de chaque projet en un coup d'œil avec notre interface sombre élégante. Sachez exactement où sont les blocages."
+    }
+  },
+  "pricing": {
+    "title": "Des tarifs qui",
+    "titleHighlight": "s'adaptent",
+    "subtitle": "Commencez gratuitement, évoluez au fur et à mesure. Aucun frais caché.",
+    "freelancer": {
+      "name": "Freelance",
+      "price": "0€",
+      "period": "/mois",
+      "description": "Parfait pour les créateurs solo qui débutent.",
+      "features": {
+        "projects": "3 projets actifs",
+        "storage": "2 Go de stockage",
+        "annotations": "Annotations basiques"
+      },
+      "cta": "Commencer gratuitement"
+    },
+    "agency": {
+      "name": "Agence",
+      "price": "29€",
+      "period": "/mois",
+      "badge": "Le plus populaire",
+      "description": "Pour les équipes en croissance ayant besoin de plus de puissance.",
+      "features": {
+        "projects": "Projets illimités",
+        "storage": "1 To de stockage",
+        "clients": "Accès invité client",
+        "whiteLabel": "White Labeling"
+      },
+      "cta": "Essai gratuit 14 jours"
+    },
+    "enterprise": {
+      "name": "Entreprise",
+      "price": "Sur mesure",
+      "description": "Sécurité avancée et support pour les grandes organisations.",
+      "features": {
+        "unlimited": "Tout illimité",
+        "security": "SSO & Sécurité avancée",
+        "manager": "Success Manager dédié"
+      },
+      "cta": "Contacter les ventes"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Connexion",
+      "subtitle": "Bon retour ! Connectez-vous à votre compte.",
+      "email": "Email",
+      "password": "Mot de passe",
+      "submit": "Se connecter",
+      "noAccount": "Pas de compte ?",
+      "signUp": "S'inscrire",
+      "error": "Email ou mot de passe invalide"
+    },
+    "register": {
+      "title": "Créer un compte",
+      "subtitle": "Commencez gratuitement dès aujourd'hui.",
+      "fullName": "Nom complet",
+      "email": "Email",
+      "password": "Mot de passe",
+      "submit": "Créer un compte",
+      "hasAccount": "Déjà un compte ?",
+      "signIn": "Se connecter",
+      "error": "Erreur lors de la création du compte"
+    }
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "welcome": "Bienvenue",
+    "overview": "Vue d'ensemble",
+    "projects": "Projets",
+    "tasks": "Tâches",
+    "files": "Fichiers",
+    "settings": "Paramètres",
+    "logout": "Déconnexion",
+    "stats": {
+      "totalProjects": "Projets totaux",
+      "activeTasks": "Tâches actives",
+      "teamMembers": "Membres de l'équipe",
+      "filesUploaded": "Fichiers téléchargés"
+    }
+  },
+  "projects": {
+    "title": "Projets",
+    "newProject": "Nouveau projet",
+    "allProjects": "Tous les projets",
+    "myProjects": "Mes projets",
+    "archived": "Archivés",
+    "createProject": "Créer un projet",
+    "projectName": "Nom du projet",
+    "description": "Description",
+    "create": "Créer",
+    "cancel": "Annuler",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "archive": "Archiver",
+    "members": "Membres",
+    "inviteMember": "Inviter un membre",
+    "noProjects": "Aucun projet",
+    "status": {
+      "active": "Actif",
+      "completed": "Terminé",
+      "onHold": "En pause"
+    }
+  },
+  "tasks": {
+    "title": "Tâches",
+    "newTask": "Nouvelle tâche",
+    "myTasks": "Mes tâches",
+    "allTasks": "Toutes les tâches",
+    "completed": "Terminées",
+    "createTask": "Créer une tâche",
+    "taskTitle": "Titre de la tâche",
+    "description": "Description",
+    "assignTo": "Assigner à",
+    "dueDate": "Date d'échéance",
+    "priority": "Priorité",
+    "create": "Créer",
+    "cancel": "Annuler",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "markComplete": "Marquer comme terminé",
+    "noTasks": "Aucune tâche",
+    "status": {
+      "todo": "À faire",
+      "inProgress": "En cours",
+      "review": "En révision",
+      "done": "Terminé"
+    },
+    "priorities": {
+      "low": "Basse",
+      "medium": "Moyenne",
+      "high": "Haute",
+      "urgent": "Urgente"
+    }
+  },
+  "files": {
+    "title": "Fichiers",
+    "upload": "Télécharger",
+    "uploadFiles": "Télécharger des fichiers",
+    "dragDrop": "Glissez-déposez des fichiers ici ou cliquez pour sélectionner",
+    "noFiles": "Aucun fichier",
+    "download": "Télécharger",
+    "delete": "Supprimer",
+    "preview": "Aperçu",
+    "annotations": "Annotations",
+    "addAnnotation": "Ajouter une annotation",
+    "comment": "Commentaire"
+  },
+  "invitations": {
+    "title": "Invitations",
+    "inviteMember": "Inviter un membre",
+    "email": "Email",
+    "role": "Rôle",
+    "send": "Envoyer",
+    "cancel": "Annuler",
+    "pending": "En attente",
+    "accepted": "Acceptée",
+    "declined": "Refusée",
+    "roles": {
+      "owner": "Propriétaire",
+      "admin": "Administrateur",
+      "member": "Membre",
+      "viewer": "Lecteur"
+    }
+  },
+  "subscription": {
+    "title": "Abonnement",
+    "currentPlan": "Plan actuel",
+    "upgrade": "Mettre à niveau",
+    "downgrade": "Rétrograder",
+    "cancel": "Annuler l'abonnement",
+    "renews": "Se renouvelle le",
+    "billingHistory": "Historique de facturation"
+  },
+  "common": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "close": "Fermer",
+    "confirm": "Confirmer",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "success": "Succès",
+    "noResults": "Aucun résultat",
+    "viewAll": "Voir tout",
+    "showMore": "Afficher plus",
+    "showLess": "Afficher moins"
+  },
+  "footer": {
+    "tagline": "La référence pour l'approbation créative moderne.",
+    "product": "Produit",
+    "company": "Entreprise",
+    "resources": "Ressources",
+    "legal": "Légal",
+    "changelog": "Changements",
+    "docs": "Documentation",
+    "about": "À propos",
+    "blog": "Blog",
+    "careers": "Carrières",
+    "contact": "Contact",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "security": "Sécurité",
+    "allRightsReserved": "Tous droits réservés"
+  },
+  "cta": {
+    "title": "Prêt à améliorer votre workflow ?",
+    "subtitle": "Rejoignez plus de 10 000 créatifs qui valident leurs projets plus rapidement.",
+    "primary": "Commencer gratuitement",
+    "secondary": "Parler aux ventes"
+  },
+  "problemSolution": {
+    "title": "Arrêtez de courir après les emails.",
+    "titleLine2": "Commencez à",
+    "titleHighlight": "finaliser vos projets.",
+    "subtitle": "Rationalisez l'intégralité de votre workflow créatif. Remplacez les fils chaotiques par de la clarté.",
+    "before": {
+      "badge": "Avant dgtl",
+      "emailsPending": "{{count}} emails en attente",
+      "urgent": "URGENT",
+      "waitingForReply": "En attente de réponse..."
+    },
+    "with": {
+      "badge": "Avec dgtl",
+      "fileName": "Banniere_Campagne.jpg",
+      "shareProject": "Partager le projet",
+      "validated": "VALIDÉ",
+      "status": {
+        "pendingReview": "En attente de révision",
+        "inReview": "En révision",
+        "approved": "Approuvé"
+      },
+      "messages": {
+        "colorUpdated": "Couleur mise à jour en #330df2 comme demandé",
+        "perfect": "Parfait ! Exactement ce dont nous avions besoin.",
+        "approvedForProduction": "Approuvé pour la production"
+      },
+      "waitingForReview": "En attente de révision...",
+      "annotations": {
+        "logoBigger": "Le logo doit être 20% plus grand",
+        "changeColor": "Changer ce texte en couleur primaire",
+        "buttonPerfect": "L'état de survol du bouton est parfait !",
+        "client": "Client",
+        "designer": "Designer",
+        "developer": "Développeur",
+        "timeAgo": {
+          "minutes": "il y a {{count}}m",
+          "seconds": "il y a {{count}}s"
+        }
+      }
+    },
+    "emails": {
+      "subject1": "RE: RE: RE: RE: Final_v3_VRAIMENT_FINAL.pdf",
+      "message1": "Peut-on changer le bleu pour un bleu légèrement différent ? Aussi, je n'arrive pas à ouvrir le fichier...",
+      "subject2": "RE: RE: RE: RE: RE: RE: Logo_FINAL_v2.psd",
+      "message2": "Attendez, peut-on revenir à la version 5 ? Je crois que je préférais celle-là finalement...",
+      "subject3": "RE: RE: RE: Mise_a_jour_projet_URGENT",
+      "message3": "Où est le fichier dont vous avez parlé ? Je ne le vois pas en pièce jointe. Pouvez-vous le renvoyer ?",
+      "subject4": "RE: RE: RE: RE: RE: RE: RE: Assets_Campagne",
+      "message4": "Mon manager veut voir ça avant qu'on procède. Pouvez-vous envoyer avant la fin de journée ?",
+      "subject5": "RE: RE: Question rapide sur les couleurs",
+      "message5": "En fait, ignorez mon dernier email. Gardons comme c'est. Ou peut-être pas...",
+      "subject6": "RE: RE: RE: RE: RE: Presentation_deck.pptx",
+      "message6": "Pouvez-vous agrandir le logo ? Et aussi le rétrécir ? Juste le rendre différent d'une manière ou d'une autre.",
+      "subject7": "RE: RE: RE: Charte_Graphique_v8.pdf",
+      "message7": "Ça a l'air super mais peut-on essayer avec une police différente ? Peut-être Comic Sans ?",
+      "subject8": "RE: RE: RE: RE: Maquette_Site_FINAL.fig",
+      "message8": "Mon conjoint pense que l'en-tête devrait être plus grand. Pouvez-vous le modifier ?",
+      "timeYesterday": "Hier",
+      "timeToday": "Aujourd'hui",
+      "timeHoursAgo": "il y a {{count}}h",
+      "timeMinutesAgo": "il y a {{count}}min"
+    }
+  }
+}

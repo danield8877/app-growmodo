@@ -1,0 +1,362 @@
+{
+  "nav": {
+    "brand": "Revamperr",
+    "revamp": "Revamp",
+    "imager": "Imager",
+    "project": "The project",
+    "tools": "Tools",
+    "features": "Features",
+    "workflow": "Workflow",
+    "pricing": "Pricing",
+    "login": "Log In",
+    "getStarted": "Create account"
+  },
+  "internalLanding": {
+    "badge": "Internal tool",
+    "heroTitle": "Redesign a live site",
+    "heroHighlight": "from its URL",
+    "heroDescription": "Enter the page address below to open Revamp with it ready. Guest session works out of the box; sign in to keep your projects.",
+    "heroScrollToUrl": "Go to URL field",
+    "heroImagerLink": "Imager",
+    "heroNote": "Guest mode creates a session automatically. Create an account to sync projects across devices.",
+    "urlBlockTitle": "Revamp from a URL",
+    "urlBlockDescription": "Type the page to work on. The next screen lets you pick style, sections, and generation mode before running.",
+    "urlPlaceholder": "example.com or https://…",
+    "urlSubmit": "Continue to Revamp",
+    "urlHint": "Style, sections, and advanced mode are on the Revamp screen.",
+    "footerNote": "© 2026 — Internal Revamperr tool (Revamp & Imager). For organization use only."
+  },
+  "hero": {
+    "badge": "New Version 2.0 is live",
+    "title": "Validate projects at the",
+    "titleHighlight": "speed of thought.",
+    "description": "Reduce waste. Save time. Get products to market faster. The ultimate approval platform designed for modern freelancers and agencies.",
+    "ctaPrimary": "Start Validating Free",
+    "ctaSecondary": "Watch Demo"
+  },
+  "files": {
+    "web": "Web Design",
+    "pdf": "Document.pdf",
+    "video": "Presentation.mp4"
+  },
+  "status": {
+    "approved": "Approved",
+    "inReview": "In Review",
+    "pending": "Pending",
+    "confirmed": "Confirmed",
+    "waiting": "Waiting"
+  },
+  "labels": {
+    "status": "Status",
+    "client": "Client",
+    "me": "Me",
+    "history": "History",
+    "amount": "Amount"
+  },
+  "time": {
+    "current": "Current",
+    "ago": "{{time}} ago",
+    "yesterday": "Yesterday",
+    "hour": "{{count}}h",
+    "days": "{{count}} days"
+  },
+  "features": {
+    "title": "Experience the future of",
+    "titleLine2": "project approval",
+    "subtitle": "See exactly what needs to be changed, who requested it, and when it was done.",
+    "annotations": {
+      "title": "Pixel-Perfect Annotations",
+      "description": "Pin comments precisely on any visual asset. Video, image, or PDF. No more confusion about that thing in the corner."
+    },
+    "versioning": {
+      "title": "Auto Versioning",
+      "description": "Never lose a file. Compare versions side-by-side instantly."
+    },
+    "sync": {
+      "title": "Real-time Sync",
+      "description": "Work together with your team and clients without friction."
+    },
+    "dashboard": {
+      "title": "Command Center",
+      "description": "Track every project status at a glance with our sleek dark-mode interface. Know exactly where bottlenecks are."
+    }
+  },
+  "pricing": {
+    "title": "Pricing that",
+    "titleHighlight": "scales",
+    "subtitle": "Start for free, upgrade as you grow. No hidden fees.",
+    "freelancer": {
+      "name": "Freelancer",
+      "price": "€0",
+      "period": "/month",
+      "description": "Perfect for solo creators just starting out.",
+      "features": {
+        "projects": "3 Active Projects",
+        "storage": "2GB Storage",
+        "annotations": "Basic Annotations"
+      },
+      "cta": "Start Free"
+    },
+    "agency": {
+      "name": "Agency",
+      "price": "€29",
+      "period": "/month",
+      "badge": "Most Popular",
+      "description": "For growing teams needing more power.",
+      "features": {
+        "projects": "Unlimited Projects",
+        "storage": "1TB Storage",
+        "clients": "Client Guest Access",
+        "whiteLabel": "White Labeling"
+      },
+      "cta": "Start 14-Day Trial"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price": "Custom",
+      "description": "Advanced security and support for large orgs.",
+      "features": {
+        "unlimited": "Unlimited Everything",
+        "security": "SSO & Advanced Security",
+        "manager": "Dedicated Success Manager"
+      },
+      "cta": "Contact Sales"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Log In",
+      "subtitle": "Welcome back! Log in to your account.",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Log In",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign Up",
+      "error": "Invalid email or password"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Get started for free today.",
+      "fullName": "Full Name",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Create Account",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign In",
+      "error": "Error creating account"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome",
+    "overview": "Overview",
+    "projects": "Projects",
+    "tasks": "Tasks",
+    "files": "Files",
+    "settings": "Settings",
+    "logout": "Logout",
+    "stats": {
+      "totalProjects": "Total Projects",
+      "activeTasks": "Active Tasks",
+      "teamMembers": "Team Members",
+      "filesUploaded": "Files Uploaded"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "newProject": "New Project",
+    "allProjects": "All Projects",
+    "myProjects": "My Projects",
+    "archived": "Archived",
+    "createProject": "Create Project",
+    "projectName": "Project Name",
+    "description": "Description",
+    "create": "Create",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "archive": "Archive",
+    "members": "Members",
+    "inviteMember": "Invite Member",
+    "noProjects": "No projects",
+    "status": {
+      "active": "Active",
+      "completed": "Completed",
+      "onHold": "On Hold"
+    }
+  },
+  "tasks": {
+    "title": "Tasks",
+    "newTask": "New Task",
+    "myTasks": "My Tasks",
+    "allTasks": "All Tasks",
+    "completed": "Completed",
+    "createTask": "Create Task",
+    "taskTitle": "Task Title",
+    "description": "Description",
+    "assignTo": "Assign To",
+    "dueDate": "Due Date",
+    "priority": "Priority",
+    "create": "Create",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "markComplete": "Mark as Complete",
+    "noTasks": "No tasks",
+    "status": {
+      "todo": "To Do",
+      "inProgress": "In Progress",
+      "review": "In Review",
+      "done": "Done"
+    },
+    "priorities": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "urgent": "Urgent"
+    }
+  },
+  "files": {
+    "title": "Files",
+    "upload": "Upload",
+    "uploadFiles": "Upload Files",
+    "dragDrop": "Drag and drop files here or click to select",
+    "noFiles": "No files",
+    "download": "Download",
+    "delete": "Delete",
+    "preview": "Preview",
+    "annotations": "Annotations",
+    "addAnnotation": "Add Annotation",
+    "comment": "Comment"
+  },
+  "invitations": {
+    "title": "Invitations",
+    "inviteMember": "Invite Member",
+    "email": "Email",
+    "role": "Role",
+    "send": "Send",
+    "cancel": "Cancel",
+    "pending": "Pending",
+    "accepted": "Accepted",
+    "declined": "Declined",
+    "roles": {
+      "owner": "Owner",
+      "admin": "Admin",
+      "member": "Member",
+      "viewer": "Viewer"
+    }
+  },
+  "subscription": {
+    "title": "Subscription",
+    "currentPlan": "Current Plan",
+    "upgrade": "Upgrade",
+    "downgrade": "Downgrade",
+    "cancel": "Cancel Subscription",
+    "renews": "Renews on",
+    "billingHistory": "Billing History"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "confirm": "Confirm",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "noResults": "No results",
+    "viewAll": "View All",
+    "showMore": "Show More",
+    "showLess": "Show Less"
+  },
+  "footer": {
+    "tagline": "The standard for modern creative approval.",
+    "product": "Product",
+    "company": "Company",
+    "resources": "Resources",
+    "legal": "Legal",
+    "changelog": "Changelog",
+    "docs": "Docs",
+    "about": "About",
+    "blog": "Blog",
+    "careers": "Careers",
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "security": "Security",
+    "allRightsReserved": "All rights reserved"
+  },
+  "cta": {
+    "title": "Ready to upgrade your workflow?",
+    "subtitle": "Join 10,000+ creative professionals validating projects faster.",
+    "primary": "Get Started for Free",
+    "secondary": "Talk to Sales"
+  },
+  "problemSolution": {
+    "title": "Stop chasing emails.",
+    "titleLine2": "Start",
+    "titleHighlight": "closing projects.",
+    "subtitle": "Streamline your entire creative workflow. Replace chaotic threads with clarity.",
+    "before": {
+      "badge": "Before dgtl",
+      "emailsPending": "{{count}} emails pending",
+      "urgent": "URGENT",
+      "waitingForReply": "Waiting for reply..."
+    },
+    "with": {
+      "badge": "With dgtl",
+      "fileName": "Campaign_Banner.jpg",
+      "shareProject": "Share Project",
+      "validated": "VALIDATED",
+      "status": {
+        "pendingReview": "Pending Review",
+        "inReview": "In Review",
+        "approved": "Approved"
+      },
+      "messages": {
+        "colorUpdated": "Color updated to #330df2 as requested",
+        "perfect": "Perfect! Exactly what we needed.",
+        "approvedForProduction": "Approved for production"
+      },
+      "waitingForReview": "Waiting for review...",
+      "annotations": {
+        "logoBigger": "Logo needs to be 20% bigger",
+        "changeColor": "Change this text to primary color",
+        "buttonPerfect": "Button hover state looks perfect!",
+        "client": "Client",
+        "designer": "Designer",
+        "developer": "Developer",
+        "timeAgo": {
+          "minutes": "{{count}}m ago",
+          "seconds": "{{count}}s ago"
+        }
+      }
+    },
+    "emails": {
+      "subject1": "RE: RE: RE: RE: Final_v3_REAL_FINAL.pdf",
+      "message1": "Can we change the blue to a slightly different blue? Also, I can't open the file...",
+      "subject2": "RE: RE: RE: RE: RE: RE: Logo_FINAL_v2.psd",
+      "message2": "Wait, can we go back to version 5? I think I preferred that one actually...",
+      "subject3": "RE: RE: RE: Project_Update_URGENT",
+      "message3": "Where is the file you mentioned? I don't see it attached. Can you resend?",
+      "subject4": "RE: RE: RE: RE: RE: RE: RE: Campaign_Assets",
+      "message4": "My manager wants to see this before we proceed. Can you send by EOD?",
+      "subject5": "RE: RE: Quick question about the colors",
+      "message5": "Actually, ignore my last email. Let's keep it as is. Or maybe not...",
+      "subject6": "RE: RE: RE: RE: RE: Presentation_deck.pptx",
+      "message6": "Can you make the logo bigger? Also smaller? Just different somehow.",
+      "subject7": "RE: RE: RE: Brand_Guidelines_v8.pdf",
+      "message7": "This looks great but can we try it in a different font? Maybe Comic Sans?",
+      "subject8": "RE: RE: RE: RE: Website_Mockup_FINAL.fig",
+      "message8": "My spouse thinks the header should be bigger. Can you change it?",
+      "timeYesterday": "Yesterday",
+      "timeToday": "Today",
+      "timeHoursAgo": "{{count}}h ago",
+      "timeMinutesAgo": "{{count}}min ago"
+    }
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "nav": {
+    "brand": "Revamperr",
+    "revamp": "Revamp",
+    "imager": "Imager",
+    "project": "Das Projekt",
+    "tools": "Die Tools",
+    "features": "Funktionen",
+    "workflow": "Workflow",
+    "pricing": "Preise",
+    "login": "Anmelden",
+    "getStarted": "Konto erstellen"
+  },
+  "internalLanding": {
+    "badge": "Internes Tool",
+    "heroTitle": "Eine Live-Site neu gestalten",
+    "heroHighlight": "über ihre URL",
+    "heroDescription": "Trage die Adresse unten ein, um Revamp mit vorausgefüllter URL zu öffnen. Gast-Session ohne Konto; mit Konto bleiben Projekte erhalten.",
+    "heroScrollToUrl": "Zum URL-Feld",
+    "heroImagerLink": "Imager",
+    "heroNote": "Der Gastmodus legt automatisch eine Session an. Ein Konto synchronisiert Projekte zwischen Geräten.",
+    "urlBlockTitle": "Revamp per URL",
+    "urlBlockDescription": "Gib die zu bearbeitende Seite an. Auf dem nächsten Bildschirm wählst du Stil, Abschnitte und Generierungsmodus.",
+    "urlPlaceholder": "beispiel.de oder https://…",
+    "urlSubmit": "Weiter zu Revamp",
+    "urlHint": "Stil, Abschnitte und erweiterter Modus werden auf der Revamp-Seite eingestellt.",
+    "footerNote": "© 2026 — Internes Revamperr-Tool (Revamp & Imager). Nur für die Organisation."
+  },
+  "hero": {
+    "badge": "Neue Version 2.0 verfügbar",
+    "title": "Validiere Projekte mit",
+    "titleHighlight": "Gedanken­geschwindigkeit.",
+    "description": "Weniger Verschwendung. Mehr Zeit. Schneller am Markt. Die ultimative Freigabe-Plattform für moderne Freelancer und Agenturen.",
+    "ctaPrimary": "Kostenlos starten",
+    "ctaSecondary": "Demo ansehen"
+  },
+  "files": {
+    "web": "Webdesign",
+    "pdf": "Dokument.pdf",
+    "video": "Praesentation.mp4"
+  },
+  "status": {
+    "approved": "Genehmigt",
+    "inReview": "In Prüfung",
+    "pending": "Ausstehend",
+    "confirmed": "Bestätigt",
+    "waiting": "Wartend"
+  },
+  "labels": {
+    "status": "Status",
+    "client": "Kunde",
+    "me": "Ich",
+    "history": "Verlauf",
+    "amount": "Betrag"
+  },
+  "time": {
+    "current": "Aktuell",
+    "ago": "vor {{time}}",
+    "yesterday": "Gestern",
+    "hour": "{{count}} Std.",
+    "days": "{{count}} Tage"
+  },
+  "features": {
+    "title": "Die Zukunft der",
+    "titleLine2": "Projektfreigabe",
+    "subtitle": "Sieh genau, was geändert werden muss, wer es wollte und wann es erledigt wurde.",
+    "annotations": {
+      "title": "Pixelgenaue Annotationen",
+      "description": "Kommentare präzise auf jedem visuellen Asset platzieren. Video, Bild oder PDF. Kein Durcheinander mehr."
+    },
+    "versioning": {
+      "title": "Automatische Versionierung",
+      "description": "Verliere nie eine Datei. Vergleiche Versionen sofort nebeneinander."
+    },
+    "sync": {
+      "title": "Echtzeit-Sync",
+      "description": "Arbeite mit Team und Kunden reibungslos zusammen."
+    },
+    "dashboard": {
+      "title": "Kommandozentrale",
+      "description": "Behalte den Status jedes Projekts im Blick – mit unserem dunklen Interface. Siehst du, wo es hakt."
+    }
+  },
+  "pricing": {
+    "title": "Preise, die",
+    "titleHighlight": "mitwachsen",
+    "subtitle": "Kostenlos starten, bei Bedarf upgraden. Keine versteckten Gebühren.",
+    "freelancer": {
+      "name": "Freelancer",
+      "price": "0 €",
+      "period": "/Monat",
+      "description": "Perfekt für Solo-Kreative am Anfang.",
+      "features": {
+        "projects": "3 aktive Projekte",
+        "storage": "2 GB Speicher",
+        "annotations": "Basis-Annotationen"
+      },
+      "cta": "Kostenlos starten"
+    },
+    "agency": {
+      "name": "Agentur",
+      "price": "29 €",
+      "period": "/Monat",
+      "badge": "Beliebt",
+      "description": "Für wachsende Teams mit mehr Power-Bedarf.",
+      "features": {
+        "projects": "Unbegrenzte Projekte",
+        "storage": "1 TB Speicher",
+        "clients": "Gastzugang für Kunden",
+        "whiteLabel": "White Labeling"
+      },
+      "cta": "14 Tage testen"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price": "Individuell",
+      "description": "Erweiterte Sicherheit und Support für große Organisationen.",
+      "features": {
+        "unlimited": "Alles unbegrenzt",
+        "security": "SSO & erweiterte Sicherheit",
+        "manager": "Dedizierter Success Manager"
+      },
+      "cta": "Vertrieb kontaktieren"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Anmelden",
+      "subtitle": "Willkommen zurück! Melde dich an.",
+      "email": "E-Mail",
+      "password": "Passwort",
+      "submit": "Anmelden",
+      "noAccount": "Noch kein Konto?",
+      "signUp": "Registrieren",
+      "error": "Ungültige E-Mail oder Passwort"
+    },
+    "register": {
+      "title": "Konto erstellen",
+      "subtitle": "Heute kostenlos starten.",
+      "fullName": "Vollständiger Name",
+      "email": "E-Mail",
+      "password": "Passwort",
+      "submit": "Konto erstellen",
+      "hasAccount": "Bereits ein Konto?",
+      "signIn": "Anmelden",
+      "error": "Fehler beim Erstellen des Kontos"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Willkommen",
+    "overview": "Übersicht",
+    "projects": "Projekte",
+    "tasks": "Aufgaben",
+    "files": "Dateien",
+    "settings": "Einstellungen",
+    "logout": "Abmelden",
+    "stats": {
+      "totalProjects": "Projekte gesamt",
+      "activeTasks": "Aktive Aufgaben",
+      "teamMembers": "Teammitglieder",
+      "filesUploaded": "Hochgeladene Dateien"
+    }
+  },
+  "projects": {
+    "title": "Projekte",
+    "newProject": "Neues Projekt",
+    "allProjects": "Alle Projekte",
+    "myProjects": "Meine Projekte",
+    "archived": "Archiviert",
+    "createProject": "Projekt erstellen",
+    "projectName": "Projektname",
+    "description": "Beschreibung",
+    "create": "Erstellen",
+    "cancel": "Abbrechen",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "archive": "Archivieren",
+    "members": "Mitglieder",
+    "inviteMember": "Mitglied einladen",
+    "noProjects": "Keine Projekte",
+    "status": {
+      "active": "Aktiv",
+      "completed": "Abgeschlossen",
+      "onHold": "Pausiert"
+    }
+  },
+  "tasks": {
+    "title": "Aufgaben",
+    "newTask": "Neue Aufgabe",
+    "myTasks": "Meine Aufgaben",
+    "allTasks": "Alle Aufgaben",
+    "completed": "Erledigt",
+    "createTask": "Aufgabe erstellen",
+    "taskTitle": "Aufgabentitel",
+    "description": "Beschreibung",
+    "assignTo": "Zuweisen an",
+    "dueDate": "Fälligkeitsdatum",
+    "priority": "Priorität",
+    "create": "Erstellen",
+    "cancel": "Abbrechen",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "markComplete": "Als erledigt markieren",
+    "noTasks": "Keine Aufgaben",
+    "status": {
+      "todo": "Offen",
+      "inProgress": "In Arbeit",
+      "review": "In Prüfung",
+      "done": "Erledigt"
+    },
+    "priorities": {
+      "low": "Niedrig",
+      "medium": "Mittel",
+      "high": "Hoch",
+      "urgent": "Dringend"
+    }
+  },
+  "files": {
+    "title": "Dateien",
+    "upload": "Hochladen",
+    "uploadFiles": "Dateien hochladen",
+    "dragDrop": "Dateien hierher ziehen oder klicken zum Auswählen",
+    "noFiles": "Keine Dateien",
+    "download": "Herunterladen",
+    "delete": "Löschen",
+    "preview": "Vorschau",
+    "annotations": "Annotationen",
+    "addAnnotation": "Annotation hinzufügen",
+    "comment": "Kommentar"
+  },
+  "invitations": {
+    "title": "Einladungen",
+    "inviteMember": "Mitglied einladen",
+    "email": "E-Mail",
+    "role": "Rolle",
+    "send": "Senden",
+    "cancel": "Abbrechen",
+    "pending": "Ausstehend",
+    "accepted": "Angenommen",
+    "declined": "Abgelehnt",
+    "roles": {
+      "owner": "Inhaber",
+      "admin": "Administrator",
+      "member": "Mitglied",
+      "viewer": "Betrachter"
+    }
+  },
+  "subscription": {
+    "title": "Abonnement",
+    "currentPlan": "Aktueller Plan",
+    "upgrade": "Upgrade",
+    "downgrade": "Downgrade",
+    "cancel": "Abonnement kündigen",
+    "renews": "Verlängert sich am",
+    "billingHistory": "Rechnungsverlauf"
+  },
+  "common": {
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "close": "Schließen",
+    "confirm": "Bestätigen",
+    "search": "Suchen",
+    "filter": "Filtern",
+    "sort": "Sortieren",
+    "loading": "Laden...",
+    "error": "Ein Fehler ist aufgetreten",
+    "success": "Erfolg",
+    "noResults": "Keine Ergebnisse",
+    "viewAll": "Alle anzeigen",
+    "showMore": "Mehr anzeigen",
+    "showLess": "Weniger anzeigen"
+  },
+  "footer": {
+    "tagline": "Der Standard für moderne kreative Freigaben.",
+    "product": "Produkt",
+    "company": "Unternehmen",
+    "resources": "Ressourcen",
+    "legal": "Rechtliches",
+    "changelog": "Änderungen",
+    "docs": "Dokumentation",
+    "about": "Über uns",
+    "blog": "Blog",
+    "careers": "Karriere",
+    "contact": "Kontakt",
+    "privacy": "Datenschutz",
+    "terms": "AGB",
+    "security": "Sicherheit",
+    "allRightsReserved": "Alle Rechte vorbehalten"
+  },
+  "cta": {
+    "title": "Bereit, deinen Workflow zu verbessern?",
+    "subtitle": "Schließ dich Tausenden Kreativen an, die Projekte schneller freigeben.",
+    "primary": "Kostenlos starten",
+    "secondary": "Vertrieb kontaktieren"
+  },
+  "problemSolution": {
+    "title": "Hör auf, E-Mails zu jagen.",
+    "titleLine2": "Fang an,",
+    "titleHighlight": "Projekte abzuschließen.",
+    "subtitle": "Strukturiere deinen gesamten kreativen Workflow. Ersetze chaotische Threads durch Klarheit.",
+    "before": {
+      "badge": "Vor dgtl",
+      "emailsPending": "{{count}} ausstehende E-Mails",
+      "urgent": "DRINGEND",
+      "waitingForReply": "Warte auf Antwort..."
+    },
+    "with": {
+      "badge": "Mit dgtl",
+      "fileName": "Kampagne_Banner.jpg",
+      "shareProject": "Projekt teilen",
+      "validated": "FREIGEGEBEN",
+      "status": {
+        "pendingReview": "Ausstehende Prüfung",
+        "inReview": "In Prüfung",
+        "approved": "Genehmigt"
+      },
+      "messages": {
+        "colorUpdated": "Farbe auf #330df2 angepasst wie gewünscht",
+        "perfect": "Perfekt! Genau das, was wir brauchten.",
+        "approvedForProduction": "Für Produktion freigegeben"
+      },
+      "waitingForReview": "Warte auf Prüfung...",
+      "annotations": {
+        "logoBigger": "Logo soll 20 % größer sein",
+        "changeColor": "Diesen Text in Primärfarbe ändern",
+        "buttonPerfect": "Button-Hover sieht perfekt aus!",
+        "client": "Kunde",
+        "designer": "Designer",
+        "developer": "Entwickler",
+        "timeAgo": {
+          "minutes": "vor {{count}} Min.",
+          "seconds": "vor {{count}} Sek."
+        }
+      }
+    },
+    "emails": {
+      "subject1": "AW: AW: AW: AW: Final_v3_ECHT_FINAL.pdf",
+      "message1": "Können wir das Blau etwas ändern? Außerdem kann ich die Datei nicht öffnen...",
+      "subject2": "AW: AW: AW: AW: AW: AW: Logo_FINAL_v2.psd",
+      "message2": "Moment, können wir zu Version 5 zurück? Mir gefiel die eigentlich besser...",
+      "subject3": "AW: AW: AW: Projekt_Update_DRINGEND",
+      "message3": "Wo ist die Datei, die du meintest? Ich sehe keinen Anhang. Kannst du nochmal senden?",
+      "subject4": "AW: AW: AW: AW: AW: AW: AW: Kampagnen_Assets",
+      "message4": "Mein Manager will das vorher sehen. Kannst du bis heute Abend schicken?",
+      "subject5": "AW: AW: Kurze Frage zu Farben",
+      "message5": "Vergiss meine letzte Mail. Lass es so. Oder vielleicht doch nicht...",
+      "subject6": "AW: AW: AW: AW: AW: Praesentation.pptx",
+      "message6": "Kannst du das Logo größer machen? Und kleiner? Einfach irgendwie anders.",
+      "subject7": "AW: AW: AW: Brand_Guidelines_v8.pdf",
+      "message7": "Sieht super aus, aber können wir eine andere Schrift testen? Vielleicht Comic Sans?",
+      "subject8": "AW: AW: AW: AW: Website_Mockup_FINAL.fig",
+      "message8": "Mein Partner findet den Header zu klein. Kannst du das ändern?",
+      "timeYesterday": "Gestern",
+      "timeToday": "Heute",
+      "timeHoursAgo": "vor {{count}} Std.",
+      "timeMinutesAgo": "vor {{count}} Min."
+    }
+  }
+}

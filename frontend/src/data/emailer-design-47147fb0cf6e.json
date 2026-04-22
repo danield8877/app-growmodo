@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "emailer-design",
+  "private_key_id": "47147fb0cf6e17b9922f8a918f88f52038eb4b67",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDV00O2tqk/CF7Z\neB6gCN6626yjPKahr92EOXyJ9YtCSFgEUjtqyvPQ/xD3MxiJP8sZnV2SY0tdqYVs\nO5DoBetR8kJ/QSP6cB+fsBKOkdmq9f8ClDDvKzCajiffhei1C0MCxBDEvjni5KSV\ndTps9J7O62/OmTYuilswzA71IDQ0pAhRZ9GXCZx8gPdlQpSEaexW9fbaDo+OeN9A\nbrYCkgJDv8rMaNW69CGUYEX4+HywO/bRVah7HWcyYprg/5OW6LpTDMIJ2bZ8njCl\n6511ivBjK/8dRlKC6btyPSAt9CdChVPe1WL30rBAtxmdEwpV4vALnI4OOg1/Ifaj\nzN7zcfZ/AgMBAAECggEADxyQLjXjPjDW6zhMXx5hXK6xGRRB6S68UV+dXUP85Iv8\n/x6EqSZ7bBYqr8hs/9OCBLxqDtzKSG32SlDnYSPR9AeoCsWix6HsSjqFBThqPA/d\n8Y5hlaA6yMwqezyZK/pbcQhERcif31jYsjYHvAg0alvvRJhFYQKm2+BVX544B6Q9\nsLBvu84Sey6CNaOwp4G+UPrv/36rAKEbTETlg6O2f/4vOOUWlvgfM9Ltnh5vGK9g\n8sqVgLHL+A4ORQA/1nvANEpwTnSBMZcvnhSUOC2Yb1YQfh5iuqGlkBqstmHXnm5E\npK0KRFoAd7+mkwzcSxw3EZJps2KCWbvVy44klNVkwQKBgQDw4PXzgRYMFu+vkm/I\nOnQ2dyji//XG54gjy04Tbor9jCdxB2Dw1HvCoUv+cmg7D7t/Gpg4JfpDjY8D4LJk\nvZ6cGkaunN2Zky5eN+zg4mzZAe//FehsQkHtvHDAT3DnAj57dWwWOoyzv21PcyYm\nCFNrqFkDd+xVzFhODw86xVNsnwKBgQDjP4pwpyR2syatPSc8pTW01t6xJlEF27gC\nVPePz77AkKViBOhhhC0eRCfSN9XZlKW9smGGL7OoC9CRnkawMwSoqBea/p4iNnI0\nofn3eIrG3wYHDnwyXFggvfJuEiSD6C4PplHeIzKrb23PGXeaz8oYYVbtOK4gQkyy\nZdZEOtVKIQKBgHJZ2Wjn9xd2LAMleXuMhG720qow6PSsJa0YbtA6wjDrwC2gWxz5\nQmd7OyBoH6MqLNCCR5EgNlardSFaIlZAznM85iEuxuSJQpHn6sQ3uYSrrstiExyR\nt8qskro4/FgucIsbi1xiHzmVvsbg21Ni0HdjTB6hZ8izYZhs/cXgt2HxAoGBALwd\nPlGw2stz0+F2jQNz03iGokPM7ydFUhaEFYaztzkaw/zXCTKoQt0aGEi5tcnudiEJ\nCBgXZsYGObpBZky3fvTKaPgCLA8wOOv+5biIzYCA4DF5OTBLJxy7gHLDi/yxd2e3\nC3AyfOBTVngooczCk44JDfdDg0jq+Sh4ip1igmthAoGAbdGHutjaueDuPAfyatZq\nidwVSv+GRqGh99/WXQkDKoPKoZVrEtTZgzb3Gjwx6doWLQDiHDoXZwhc7iGpTdsc\nfovWGyEkKd5361oYVDKSLziOkPQ/Q+ndEJJVACjk1Sic7+wPyCkFIVEYUDGcVvnG\nT6Ruap48vtvzaGUA3OVAOj0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "emailer-design@emailer-design.iam.gserviceaccount.com",
+  "client_id": "117404593757963994364",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/emailer-design%40emailer-design.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
