@@ -1,514 +1,224 @@
 generator client {
 
-
-
   provider = "prisma-client"
-
-
 
   output   = "../generated/prisma"
 
-
-
 }
 
-
-
-
-
-
-
 datasource db {
-
-
 
   provider = "postgresql"
 }
 
-
-
-
-
-
-
 enum Plan {
-
-
 
   FREE
 
-
-
   PRO
-
-
 
   AGENCY
 
-
-
 }
-
-
-
-
-
-
 
 enum JobStatus {
 
-
-
   DRAFT
-
-
 
   QUEUED
 
-
-
   RUNNING
-
-
 
   DONE
 
-
-
   FAILED
-
-
 
   CANCELLED
 
-
-
 }
-
-
-
-
-
-
 
 model GuestSession {
 
-
-
   id        String   @id @default(cuid())
-
-
 
   createdAt DateTime @default(now())
 
-
-
-
-
-
-
   revamperProjects RevamperProject[]
-
-
 
   imagerProjects   ImagerProject[]
 
-
-
 }
-
-
-
-
-
-
 
 model User {
 
-
-
   id           String   @id @default(cuid())
-
-
 
   email        String   @unique
 
-
-
   passwordHash String
-
-
 
   name         String?
 
-
-
   plan         Plan     @default(FREE)
 
-
-
-  /** SMTP par défaut pour Emailer (host, port, user, pass, from) — complète le .env si null côté campagne. */
-
-
+  /** SMTP par dÃ©faut pour Emailer (host, port, user, pass, from) Â— complÃ¨te le .env si null cÃ´tÃ© campagne. */
 
   smtpSettings Json?
 
-
-
   createdAt    DateTime @default(now())
-
-
 
   updatedAt    DateTime @updatedAt
 
-
-
-
-
-
-
   revamperProjects RevamperProject[]
-
-
 
   imagerProjects   ImagerProject[]
 
-
-
   emailerCampaigns EmailerCampaign[]
 
-
-
 }
-
-
-
-
-
-
 
 model PreRegistration {
 
-
-
   id            String   @id @default(cuid())
-
-
 
   fullName      String
 
-
-
   companyName   String?
-
-
 
   phone         String?
 
-
-
   email         String
-
-
 
   acceptContact Boolean  @default(false)
 
-
-
   createdAt     DateTime @default(now())
 
-
-
 }
-
-
-
-
-
-
 
 model RevamperProject {
 
-
-
   id              String    @id @default(cuid())
-
-
 
   userId          String?
 
-
-
   guestSessionId  String?
-
-
 
   title           String    @default("Refonte")
 
-
-
   sourceUrl       String?
-
-
 
   analysis        Json      @default("{}")
 
-
-
   html            String    @default("")
-
-
 
   css             String    @default("")
 
-
-
   js              String    @default("")
-
-
 
   modelId         String?
 
-
-
   stylePreference String?
-
-
 
   status          JobStatus @default(DONE)
 
-
-
   createdAt       DateTime  @default(now())
-
-
 
   updatedAt       DateTime  @updatedAt
 
-
-
-
-
-
-
   user             User?             @relation(fields: [userId], references: [id], onDelete: Cascade)
-
-
 
   guestSession     GuestSession?     @relation(fields: [guestSessionId], references: [id], onDelete: Cascade)
 
-
-
   emailerCampaigns EmailerCampaign[]
-
-
-
-
-
-
 
   @@index([userId])
 
-
-
   @@index([guestSessionId])
-
-
 
   @@index([createdAt])
 
-
-
 }
-
-
-
-
-
-
 
 model ImagerProject {
 
-
-
   id               String   @id @default(cuid())
-
-
 
   userId           String?
 
-
-
   guestSessionId   String?
-
-
 
   brandName        String   @default("")
 
-
-
   brandColors      Json     @default("{}")
-
-
 
   brandLogoUrl     String?
 
-
-
   brandFonts       Json     @default("{}")
-
-
 
   brandDescription String?
 
-
-
   targetAudience   String?
-
-
 
   toneOfVoice      String   @default("professional")
 
-
-
-  /** ISO code court (fr, en, es, …) — langue du texte dans les visuels générés */
-
-
+  /** ISO code court (fr, en, es, Â…) Â— langue du texte dans les visuels gÃ©nÃ©rÃ©s */
 
   outputLanguage   String   @default("fr")
 
-
-
   generatedAssets  Json     @default("[]")
-
-
 
   status           String   @default("draft")
 
-
-
   createdAt        DateTime @default(now())
-
-
 
   updatedAt        DateTime @updatedAt
 
-
-
-
-
-
-
   user         User?         @relation(fields: [userId], references: [id], onDelete: Cascade)
-
-
 
   guestSession GuestSession? @relation(fields: [guestSessionId], references: [id], onDelete: Cascade)
 
-
-
-
-
-
-
   @@index([userId])
-
-
 
   @@index([guestSessionId])
 
-
-
 }
-
-
-
-
-
-
 
 model EmailerCampaign {
 
-
-
   id                String    @id @default(cuid())
-
-
 
   userId            String
 
-
-
   name              String
-
-
 
   status            JobStatus @default(DRAFT)
 
-
-
   contacts          Json      @default("[]")
-
-
 
   template          Json      @default("{}")
 
-
-
   aiContext         Json?
-
-
 
   smtpConfig        Json?
 
-
-
   revamperProjectId String?
-
-
 
   stats             Json?
 
-
-
   sentAt            DateTime?
-
-
 
   createdAt         DateTime  @default(now())
 
-
-
   updatedAt         DateTime  @updatedAt
-
-
-
-
-
-
 
   user            User             @relation(fields: [userId], references: [id], onDelete: Cascade)
 
-
-
   revamperProject RevamperProject? @relation(fields: [revamperProjectId], references: [id])
-
-
-
-
-
-
 
   @@index([userId])
 
-
-
   @@index([sentAt])
 
-
-
   @@index([revamperProjectId])
-
-
 
 }
