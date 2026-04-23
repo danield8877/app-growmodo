@@ -17,6 +17,7 @@ if [[ -z "${GITHUB_TOKEN:-}" ]]; then
 fi
 
 echo ">>> Push vers https://github.com/${REPO_SLUG}.git (branche main)..."
-# URL avec token : ne pas committer ce token ailleurs ; ne pas le logger.
-git push "https://${GITHUB_TOKEN}@github.com/${REPO_SLUG}.git" main --force
+# GitHub HTTPS : utiliser x-access-token comme « user » + PAT en mot de passe (évite souvent « Invalid username or token »).
+# Ne pas committer le token ; ne pas le coller dans des logs publics.
+git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${REPO_SLUG}.git" main --force
 echo ">>> OK — GitHub est aligné avec ce serveur."
