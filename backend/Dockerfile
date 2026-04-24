@@ -13,4 +13,9 @@ RUN npm ci
 COPY . .
 RUN npm run build
 EXPOSE 3001
-CMD ["sh", "-c", "node_modules/.bin/prisma migrate deploy && node dist/src/index.js"]
+CMD ["sh", "-c", "\
+  PRISMA=node_modules/.bin/prisma; \
+  $PRISMA migrate resolve --applied 20260404120000_imager_output_language 2>/dev/null || true; \
+  $PRISMA migrate resolve --applied 20260404120001_add_cancelled_job_status 2>/dev/null || true; \
+  $PRISMA migrate deploy && node dist/src/index.js \
+"]
